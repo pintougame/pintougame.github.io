@@ -1,0 +1,112 @@
+@font-face {
+	font-family: "brookeFont";
+	src: url("BrookeS8.ttf")  format("truetype");
+}
+
+html { 
+	height: 100%;
+	margin: 0; 
+	padding: 0;
+}
+
+body
+{
+	height: 320px;
+	width: 568px;
+	border: 4px solid #000000;
+	border-radius: 10px;
+	margin: 0; 
+	padding: 0;
+	color: #000000;
+	
+}
+
+h3 {
+	background-color: #FF351F;
+	color: #FFFFFF;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	font-size: 22pt;
+	font-family: 'brookeFont', vernanda;
+}
+
+.Table {
+    display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.Title
+{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Heading
+{
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Row
+{
+    display: table-row;
+}
+
+	
+table
+{
+	width: 100%;
+	border-spacing:5px;
+	border: none;	
+	padding: 0;
+}
+
+td
+{
+	border: 1px solid #000000;
+	height: 50px;
+}
+
+.Cell1
+{
+	width: 25%;
+	padding: 0;
+	border:none;
+}	
+
+.Cell2
+{
+	width: 50%; 
+	padding: 5px;
+	border: none;
+}
+
+.Cell3
+{
+	width: 25%;
+	text-align: center;
+	border:none;
+}
+
+#writingPad
+{
+	height: 100%;
+	border: 1px solid #000000;
+}
+
+#results {
+	height: 44%;
+}
+
+#submissions {
+	height: 44%;
+	margin-top: 10px;
+	border: 1px solid #000000;
+	color: grey;
+
+}
