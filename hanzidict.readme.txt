@@ -1,0 +1,11 @@
+Jordan Kiang
+jordan-at-kiang.org
+
+A Chinese character dictionary app using (crude) handwriting recognition.
+This is a version of an older lookup app using the newer lookup component.
+Jar file should be directly runnable as both an Applet and as a stand-alone
+app.  Main class is hanzidict/HanziDict.
+
+Dictionary derived from CEDICT.
+http://www.mandarintools.com/cedict.html
+
